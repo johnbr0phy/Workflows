@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "role": "",
+  "primary_use": "",
+  "_primary_use_options": ["coding", "research", "ops", "mixed"],
+  "recurring_task": "",
+  "comfort_level": 0,
+  "_comfort_level_scale": "1 = new to terminal/JS, 5 = very comfortable; calibrates how deep to go on the JS harness",
+  "created": "",
+  "version": 1
+}

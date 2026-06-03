@@ -1,0 +1,115 @@
+{
+  "course": "Dynamic Workflows in Claude Code",
+  "version": 1,
+  "current_session": 1,
+  "sessions": [
+    {
+      "id": 1,
+      "title": "Why workflows exist — the single-context-window ceiling + the three failure modes",
+      "phase": "Foundations",
+      "status": "not_started",
+      "checkpoints": [],
+      "quiz_score": null,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "title": "Anatomy of a workflow — JS harness, spawn/coordinate, model choice, worktrees, resumability, ultracode",
+      "phase": "Foundations",
+      "status": "not_started",
+      "checkpoints": [],
+      "quiz_score": null,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "title": "Dynamic vs static + the cost mindset (does this need more compute?)",
+      "phase": "Foundations",
+      "status": "not_started",
+      "checkpoints": [],
+      "quiz_score": null,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "title": "Fan-out-and-synthesize (the barrier)",
+      "phase": "The six patterns",
+      "status": "not_started",
+      "checkpoints": [],
+      "quiz_score": null,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "title": "Adversarial verification (+ skeptic persona to cut false positives)",
+      "phase": "The six patterns",
+      "status": "not_started",
+      "checkpoints": [],
+      "quiz_score": null,
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "title": "Generate-and-filter + Tournament (comparative judgment)",
+      "phase": "The six patterns",
+      "status": "not_started",
+      "checkpoints": [],
+      "quiz_score": null,
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "title": "Classify-and-act + model/intelligence routing",
+      "phase": "The six patterns",
+      "status": "not_started",
+      "checkpoints": [],
+      "quiz_score": null,
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "title": "Loop-until-done (+ /goal and /loop)",
+      "phase": "The six patterns",
+      "status": "not_started",
+      "checkpoints": [],
+      "quiz_score": null,
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "title": "Deep research + deep verification",
+      "phase": "Applied + shipping",
+      "status": "not_started",
+      "checkpoints": [],
+      "quiz_score": null,
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "title": "Triage at scale + the quarantine (security) pattern",
+      "phase": "Applied + shipping",
+      "status": "not_started",
+      "checkpoints": [],
+      "quiz_score": null,
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "title": "Big structured tasks — migrations/refactors, sorting, root-cause, evals",
+      "phase": "Applied + shipping",
+      "status": "not_started",
+      "checkpoints": [],
+      "quiz_score": null,
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "title": "Capstone — ship a workflow: build, set token budget, save (s), package as a skill",
+      "phase": "Applied + shipping",
+      "status": "not_started",
+      "checkpoints": [],
+      "quiz_score": null,
+      "notes": ""
+    }
+  ]
+}
