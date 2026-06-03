@@ -3,9 +3,21 @@
   "role": "",
   "primary_use": "",
   "_primary_use_options": ["coding", "research", "ops", "mixed"],
+
   "recurring_task": "",
+  "task_concrete_example": "",
+  "_task_concrete_example_help": "One real recent instance, e.g. 'last Tuesday I triaged 32 new GitHub issues by hand'. This is the example the instructor runs exercises on.",
+  "task_inputs": "",
+  "_task_inputs_help": "What the task consumes (files, issues, PRs, docs, rows, logs, web sources, Slack threads...).",
+  "task_output": "",
+  "_task_output_help": "What 'done' produces (a report, merged PRs, a ranked list, a triaged queue, updated CLAUDE.md...).",
+  "task_pain_point": "",
+  "_task_pain_point_help": "Where it's slow or unreliable today — maps to a failure mode in Session 1.",
+  "task_frequency": "",
+
   "comfort_level": 0,
   "_comfort_level_scale": "1 = new to terminal/JS, 5 = very comfortable; calibrates how deep to go on the JS harness",
+
   "created": "",
-  "version": 1
+  "version": 2
 }

@@ -21,10 +21,11 @@ From inside this folder, in Claude Code, just say:
 Let's get started
 ```
 
-On first run, the instructor will ask you five quick questions (name, role, what
-you mostly do in Claude Code, **one recurring task** you want to make faster or
-more reliable, and your comfort with terminal/JS 1–5). That recurring task becomes
-your running example and your **capstone**.
+On first run, the instructor interviews you briefly — name, role, what you mostly
+do in Claude Code, your comfort with terminal/JS (1–5), and especially **one real
+recurring task** you want to make faster or more reliable (with a concrete recent
+example, its inputs, its output, and where it's slow today). From then on **every
+exercise runs on your task, not a toy example** — and it becomes your **capstone**.
 
 Then, any time:
 

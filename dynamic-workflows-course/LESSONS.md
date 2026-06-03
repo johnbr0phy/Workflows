@@ -8,6 +8,13 @@
 **Lesson format (every session):** Concept · Start with WHY · Exercise(s) ·
 Key Tradeoff · Apply to Your Work · Quiz bank.
 
+**Personalization (read this first):** Exercises below show a **generic default**
+so they work out of the box. Once setup is done, the instructor **runs each
+exercise on the learner's own recurring task** instead — using their
+`recurring_task`, `task_concrete_example`, `task_inputs`, and `task_output` from
+`user.json` (see "Personalize every exercise" in `CLAUDE.md`). Treat the generic
+prompts as fallbacks, not the main path.
+
 **Guardrails the instructor enforces in every exercise:**
 - Workflows cost tokens. Always prompt a small budget (e.g. "use ~5k tokens")
   and prefer **quick workflows** for exercises.

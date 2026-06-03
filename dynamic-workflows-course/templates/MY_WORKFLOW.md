@@ -9,6 +9,15 @@
 **What I do today (and where it's slow / unreliable):**
 _(filled in during setup)_
 
+**A concrete recent example** (the instance the instructor runs exercises on):
+_(filled in during setup — e.g. "last Tuesday I triaged 32 new GitHub issues by hand")_
+
+**Inputs it consumes** (files / issues / PRs / docs / rows / logs / web / Slack):
+_(filled in during setup)_
+
+**Output when it's done** (report / merged PRs / ranked list / triaged queue / …):
+_(filled in during setup)_
+
 **What "done well" looks like:**
 _(filled in during setup)_
 
