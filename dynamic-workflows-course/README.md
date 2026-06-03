@@ -90,11 +90,20 @@ goal — using six core patterns, then ship a saved, reusable workflow as a skil
 
 ---
 
+## Homepage
+
+A browsable course homepage (same three-panel design as the AIPM site) lives in
+**`index.html`** — open it locally or serve it via GitHub Pages. It's a single
+self-contained file (React + Tailwind via CDN, no build step). `course-site.jsx`
+is the same site as a clean importable React component if you'd rather build it.
+
 ## What's in this folder
 
 ```
 dynamic-workflows-course/
 ├── README.md          ← you are here
+├── index.html         ← browsable course homepage (self-contained, GitHub-Pages ready)
+├── course-site.jsx    ← the homepage as an importable React component
 ├── CLAUDE.md          ← instructor instructions (setup, session flow, quiz, guardrails)
 ├── LESSONS.md         ← full plans for all 12 sessions
 ├── SOURCE.md          ← canonical source material (lessons stay accurate to this)
