@@ -1,9 +1,29 @@
 # Homepage
 
-The homepage is a single self-contained `index.html` — a three-panel course site
-(left phase nav · main content · right "on this page" nav) with click-through
-session detail views. It uses React + Tailwind + Babel via CDN, so it renders on
-GitHub Pages with **no build step**.
+The homepage is a single self-contained `index.html` — a centered three-panel
+course site (left phase nav · main content · right "on this page" nav) with
+click-through session detail views. It uses React + Tailwind + Babel via CDN, so it
+renders on GitHub Pages with **no build step**.
+
+## Layout: the page MUST be centered (do not left-align)
+
+This is the #1 thing to get right. The whole app is a **centered column**, not a
+full-width spread. The required structure (already baked into `assets/index.html`
+— keep it intact):
+
+- The app is wrapped in a centered max-width container in **two** places: an inner
+  `max-w-[1600px] mx-auto` wrapper inside the `<header>`, and a
+  `max-w-[1600px] mx-auto` wrapper around the body `flex pt-14` row.
+- Both sidebars are **in-flow and sticky** (`lg:sticky ... lg:flex-shrink-0`),
+  **not** `fixed` with margin offsets. The left sidebar is also `fixed` on mobile
+  for the slide-in menu (`fixed lg:sticky …`).
+- `<main>` is exactly `flex-1 px-4 sm:px-8 lg:px-12 py-8 max-w-3xl mx-auto` —
+  **no `lg:ml-*` / `lg:mr-*` offsets and no `lg:mx-0`**. Those offsets + `lg:mx-0`
+  are what cause the content to hug the left sidebar (left-aligned). Never add them.
+
+If a generated page comes out left-aligned, it's because the sidebars were made
+`fixed` with `lg:ml-80 lg:mr-56` on `<main>` and/or `lg:mx-0` — revert to the
+centered structure above.
 
 ## How to generate it
 
@@ -14,7 +34,9 @@ GitHub Pages with **no build step**.
      personalization example, prerequisites, get-started steps, links).
    - **`phases`** — the course data, derived directly from `LESSONS.md`. One entry
      per phase; each with a `sessions` array.
-3. Leave the components, layout, and CSS alone.
+3. Leave the components, **layout**, and CSS alone — especially the
+   `max-w-[1600px]` wrappers, the sticky sidebars, and the `max-w-3xl mx-auto`
+   `<main>`. Changing those is what breaks centering.
 
 ### Filling `phases`
 
