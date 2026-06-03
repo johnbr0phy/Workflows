@@ -1,4 +1,4 @@
-name: Deploy site to GitHub Pages
+name: Deploy course homepage to GitHub Pages
 
 on:
   push:
@@ -29,18 +29,11 @@ jobs:
         with:
           enablement: true
 
-      - name: Assemble site
-        run: |
-          mkdir -p _site/demo
-          # Skill landing page at the root
-          cp site/index.html _site/index.html
-          # The course homepage it produced, served as a live demo at /demo/
-          cp dynamic-workflows-course/index.html _site/demo/index.html
-
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          # Publish the course homepage folder as the site root
+          path: ./dynamic-workflows-course
 
       - name: Deploy to GitHub Pages
         id: deployment
