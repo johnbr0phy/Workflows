@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "role": "",
+  "background": "",
+  "_comment": "Rename/extend the fields below to fit THIS course's running example (e.g. product, recurring_task, dataset). Capture it richly: a concrete recent instance, its inputs, its output, and where it's weak today.",
+  "running_example": "",
+  "example_concrete_instance": "",
+  "example_inputs": "",
+  "example_output": "",
+  "example_pain_point": "",
+  "comfort_level": 0,
+  "_comfort_level_scale": "1 = new to {{DOMAIN_SKILL}}, 5 = very comfortable; calibrates how deep the instructor goes",
+  "created": "",
+  "version": 1
+}

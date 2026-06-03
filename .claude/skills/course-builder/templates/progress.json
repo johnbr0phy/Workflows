@@ -1,0 +1,17 @@
+{
+  "course": "{{COURSE_TITLE}}",
+  "version": 1,
+  "current_session": 1,
+  "_comment": "Generate one entry per session, matching LESSONS.md exactly. status: not_started | in_progress | completed",
+  "sessions": [
+    {
+      "id": 1,
+      "title": "{{SESSION_1_TITLE}}",
+      "phase": "{{PHASE_1_NAME}}",
+      "status": "not_started",
+      "checkpoints": [],
+      "quiz_score": null,
+      "notes": ""
+    }
+  ]
+}
