@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Course Builder — a Claude Code skill</title>
+  <meta name="description" content="A Claude Code skill that turns a topic or some source material into a complete, hands-on, instructor-led course — plus a live homepage." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style> html { scroll-behavior: smooth; } pre,code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; } </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-40 h-14 bg-white/90 backdrop-blur border-b border-slate-200 flex items-center justify-between px-5 lg:px-8">
+    <div class="flex items-center gap-2.5">
+      <svg class="w-6 h-6 text-purple-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="8" x="3" y="3" rx="2"/><path d="M7 11v4a2 2 0 0 0 2 2h4"/><rect width="8" height="8" x="13" y="13" rx="2"/></svg>
+      <span class="font-semibold text-slate-900">Course Builder</span>
+      <span class="hidden sm:inline text-slate-400 text-sm">· a Claude Code skill</span>
+    </div>
+    <div class="flex items-center gap-5 text-sm">
+      <a href="#how" class="text-slate-600 hover:text-purple-600 hidden sm:block">How it works</a>
+      <a href="https://github.com/johnbr0phy/Workflows-course" class="text-slate-500 hover:text-slate-800">GitHub</a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-5 sm:px-8">
+
+    <!-- Hero -->
+    <section class="pt-14 pb-12">
+      <div class="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 rounded-2xl p-8 sm:p-10 text-center mb-8">
+        <span class="inline-block text-xs font-semibold tracking-wide text-purple-200 bg-white/10 rounded-full px-3 py-1 mb-4">Claude Code · Skill</span>
+        <h1 class="text-3xl sm:text-4xl font-bold text-white mb-3">Course Builder</h1>
+        <p class="text-purple-200 text-lg max-w-2xl mx-auto">Give Claude a topic or some source material. Get back a complete, hands-on course — instructor, lessons, quizzes, personalization — and a live homepage.</p>
+      </div>
+
+      <p class="text-lg text-slate-600 mb-6">
+        <strong>Course Builder</strong> is a Claude Code skill. It packages a proven course
+        pattern — Claude Code as the instructor, learners learn by <em>doing</em>, every concept
+        ties to one real thing the learner brings, each session ends in an 8-question quiz — into
+        something you can run on <em>any</em> subject in minutes.
+      </p>
+
+      <div class="flex flex-wrap gap-3">
+        <a href="#how" class="inline-flex items-center gap-2 px-5 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-xl transition-colors">
+          See how it works
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+        <a href="demo/" class="inline-flex items-center gap-2 px-5 py-2.5 bg-white border border-slate-200 hover:border-purple-300 text-slate-800 font-semibold rounded-xl transition-colors">
+          View a course it built
+          <svg class="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="how" class="py-12 scroll-mt-16 border-t border-slate-200">
+      <h2 class="text-2xl font-bold text-slate-900 mb-2">How it works</h2>
+      <p class="text-slate-600 mb-8">Three moves, all driven by a short conversation up front.</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-white border border-slate-200 rounded-xl p-5">
+          <div class="w-9 h-9 rounded-full bg-purple-100 text-purple-700 font-bold flex items-center justify-center mb-3">1</div>
+          <h3 class="font-semibold text-slate-900 mb-1.5">Intake</h3>
+          <p class="text-sm text-slate-600">Claude asks for the topic, any source material, the audience, where exercises are practiced, and the one real example each learner will bring.</p>
+        </div>
+        <div class="bg-white border border-slate-200 rounded-xl p-5">
+          <div class="w-9 h-9 rounded-full bg-purple-100 text-purple-700 font-bold flex items-center justify-center mb-3">2</div>
+          <h3 class="font-semibold text-slate-900 mb-1.5">Build</h3>
+          <p class="text-sm text-slate-600">It generates a self-contained course folder: an instructor, full lessons (not stubs), canonical source, progress tracking, and 8-question quizzes.</p>
+        </div>
+        <div class="bg-white border border-slate-200 rounded-xl p-5">
+          <div class="w-9 h-9 rounded-full bg-purple-100 text-purple-700 font-bold flex items-center justify-center mb-3">3</div>
+          <h3 class="font-semibold text-slate-900 mb-1.5">Ship</h3>
+          <p class="text-sm text-slate-600">Optionally it builds a browsable homepage and deploys it live to GitHub Pages — the same flow that produced this very page.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- What you get -->
+    <section class="py-12 border-t border-slate-200">
+      <h2 class="text-2xl font-bold text-slate-900 mb-8">What it generates</h2>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
+        <div class="bg-slate-900 rounded-xl p-5 overflow-x-auto">
+<pre class="text-[13px] leading-relaxed text-slate-300">&lt;topic&gt;-course/
+├── <span class="text-purple-300">README.md</span>      overview &amp; quick start
+├── <span class="text-purple-300">CLAUDE.md</span>      the instructor
+├── <span class="text-purple-300">LESSONS.md</span>     full session plans
+├── <span class="text-purple-300">SOURCE.md</span>      canonical source of truth
+├── <span class="text-purple-300">index.html</span>     browsable homepage
+└── templates/
+    ├── user.json
+    ├── progress.json
+    ├── PROGRESS.md
+    └── MY_THING.md   your running example</pre>
+        </div>
+        <ul class="space-y-3 text-slate-700">
+          <li class="flex gap-3"><span class="text-purple-500 mt-1">▹</span><span><strong>An instructor, not a document.</strong> <code class="text-sm bg-slate-100 px-1 rounded">CLAUDE.md</code> runs sessions, waits for you, and grades quizzes.</span></li>
+          <li class="flex gap-3"><span class="text-purple-500 mt-1">▹</span><span><strong>Personalized throughout.</strong> Every exercise runs on the one real example you bring — captured at setup, applied each session, shipped in the capstone.</span></li>
+          <li class="flex gap-3"><span class="text-purple-500 mt-1">▹</span><span><strong>Hands-on by design.</strong> You learn by doing in the real environment, not by reading.</span></li>
+          <li class="flex gap-3"><span class="text-purple-500 mt-1">▹</span><span><strong>Progress tracked.</strong> Status, checkpoints, and quiz scores persist across sessions.</span></li>
+          <li class="flex gap-3"><span class="text-purple-500 mt-1">▹</span><span><strong>Ships a website.</strong> A data-driven homepage you can deploy live in one push.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- How to use -->
+    <section class="py-12 border-t border-slate-200">
+      <h2 class="text-2xl font-bold text-slate-900 mb-3">Using it</h2>
+      <p class="text-slate-600 mb-5">The skill lives in <code class="text-sm bg-slate-100 px-1.5 py-0.5 rounded">.claude/skills/course-builder/</code>. With it installed, just ask Claude Code:</p>
+      <div class="bg-slate-100 rounded-xl p-4 mb-4">
+        <p class="text-sm text-slate-700"><span class="text-slate-400">You:</span> <span class="text-purple-700">"Build a course on &lt;your topic&gt; for &lt;your audience&gt;."</span></p>
+      </div>
+      <p class="text-slate-600 text-sm">Claude proposes an outline, you confirm, and it builds the whole course — then offers to put up the homepage. It stops there; the generated course is what teaches.</p>
+    </section>
+
+    <!-- Demo CTA -->
+    <section class="py-12 border-t border-slate-200">
+      <div class="bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-100 rounded-2xl p-6 sm:p-8">
+        <h2 class="text-xl font-bold text-slate-900 mb-2">See it in action</h2>
+        <p class="text-slate-600 mb-5">The <strong>Dynamic Workflows in Claude Code</strong> course — 12 sessions, three phases, a full homepage — was built with this pattern. Browse it:</p>
+        <a href="demo/" class="inline-flex items-center gap-2 px-5 py-2.5 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-xl transition-colors">
+          Open the demo course
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 py-8 mt-4">
+    <div class="max-w-4xl mx-auto px-5 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-slate-500">
+      <span>Course Builder — a Claude Code skill.</span>
+      <a href="https://github.com/johnbr0phy/Workflows-course" class="hover:text-slate-800">github.com/johnbr0phy/Workflows-course</a>
+    </div>
+  </footer>
+
+</body>
+</html>
